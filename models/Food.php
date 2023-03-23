@@ -6,9 +6,9 @@ class Food extends Product {
   public $expire_date;
   public $meat;
 
-  function __construct($name, $price, $_expire_date, $_meat) {
+  function __construct($_name, $_price, $_expire_date, $_meat) {
     // Uso il construct del genitore (Product)
-    parent::__construct($name, $price);
+    parent::__construct($_name, $_price);
     $this->setExpire($_expire_date);
     $this->setMeat($_meat);
   }

@@ -1,8 +1,9 @@
 <?php
 require_once __DIR__ . '/models/Product.php';
 require_once __DIR__ . '/models/Food.php';
+require_once __DIR__ . '/models/Toys.php';
 
-var_dump(new Food("Cibonus", 5, "05.2024", "Chicken"));
+var_dump(new Toys("Cibonus", 5, "Rubber", "Ball"));
 ?>
 
 <!DOCTYPE html>
