@@ -2,8 +2,9 @@
 require_once __DIR__ . '/models/Product.php';
 require_once __DIR__ . '/models/Food.php';
 require_once __DIR__ . '/models/Toys.php';
+require_once __DIR__ . '/models/Bed.php';
 
-var_dump(new Toys("Cibonus", 5, "Rubber", "Ball"));
+var_dump(new Bed("Cibonus", 5, "m"));
 ?>
 
 <!DOCTYPE html>
