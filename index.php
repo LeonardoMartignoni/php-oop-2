@@ -1,10 +1,10 @@
 <?php
-require_once __DIR__ . '/models/Product.php';
-require_once __DIR__ . '/models/Food.php';
+require_once __DIR__ . '/db/food_db.php';
 require_once __DIR__ . '/models/Toys.php';
 require_once __DIR__ . '/models/Bed.php';
 
-var_dump(new Bed("Cibonus", 5, "m"));
+var_dump($food_list);
+
 ?>
 
 <!DOCTYPE html>
